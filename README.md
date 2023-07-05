@@ -16,4 +16,26 @@ To use Audify, follow these steps to set it up on your system:
    ```bash
    git clone https://github.com/sankooru14/audify.git
    cd audify
+2. (Optional) Create and activate a virtual environment:
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+3. Install the required packages:
+
+   ```bash
+   pip install -r requirements.txt
+4. Run the migration commands to set up the database:
+
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py makemigrations accounts
+   python manage.py migrate
+5. Run the Audify application
+   ```bash
+   python manage.py runserver
+
+
+
 
