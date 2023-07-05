@@ -6,3 +6,14 @@ Audify is a versatile Python project that enables you to extract audio from vide
 * Accept video links from platforms such as YouTube, Facebook, and Twitch streams.
 * User Authentication
 * Add captions to the extracted audio in User-defined captions at specific timestamps.
+
+## Installation
+
+To use Audify, follow these steps to set it up on your system:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sankooru14/audify.git
+   cd audify
+
